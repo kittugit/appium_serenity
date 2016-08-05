@@ -1,0 +1,18 @@
+<acceptance-test-run title="Add Two Number" name="Add Two Number" steps="3" successful="0" failures="0" skipped="0" ignored="2" pending="1" annotated-result="PENDING" result="PENDING" duration="94" timestamp="2016-08-05T00:32:19.321-05:00">
+  <user-story id="user_add_number" name="User add number" path="stories/todo_single_operations/user_add_number.story"/>
+  <tags>
+    <tag name="Todo single operations" type="feature"/>
+    <tag name="Todo single operations/User add number" type="story"/>
+  </tags>
+  <test-group name="Given I am on the calculator app" result="PENDING">
+    <test-step result="PENDING" duration="2">
+      <description>Given I am on the calculator app</description>
+    </test-step>
+    <test-step result="IGNORED" duration="1">
+      <description>When I press number 2 and 3</description>
+    </test-step>
+    <test-step result="IGNORED" duration="0">
+      <description>Then result should show 5</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
